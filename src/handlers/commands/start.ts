@@ -1,6 +1,5 @@
 import { Bot, Keyboard } from "grammy";
 import { Chat } from "@grammyjs/types";
-import qs from "qs";
 import { MyContext } from "../../types";
 import { isGroup, isPrivate } from "../../filters/";
 import { logger } from "../../utils";
